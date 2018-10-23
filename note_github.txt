@@ -1,0 +1,14 @@
+1、创建github账号
+step1 创建项目的SSH Key
+ssh-keygen  -t rsa -C "1181708977@qq.com",生成密钥对，在.ssh目录下
+登陆github网站,注册账号，打开setting的SSH Keys页面，然后，点“New SSH Key”
+组长：把公有密钥传给组长，统一把每个人加进去，创建项目以后可以上传下载文件，新建一个仓库 create a new repository
+仓库建好以后，组长把clone with ssh复制 get clone 复制的内容 远程仓库和本地关联起来了 
+本地操作
+将本地提交到远程库，添加 git add,git commit,git push origin master,发到github上取了
+从远程库获取到本地，从github 同步， git pull
+
+历史版本，git reset版本号,git checkout 文件名
+查看历史操作 git log
+查看暂存取信息 git status 
+
